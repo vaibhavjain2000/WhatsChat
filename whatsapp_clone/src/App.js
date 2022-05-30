@@ -12,8 +12,8 @@ function App() {
     axios.get('/messages/sync')
       .then(response => {
         setMessages(response.data)
-      },[messages])
-  })
+      })
+  },[messages])
   useEffect(()=>{
     const pusher = new Pusher('88139ab431fd0a295fd3', {
       cluster: 'ap2'
@@ -30,7 +30,7 @@ function App() {
     }
   },[messages])
 
-  // console.log(messages)
+  console.log(messages)
   return (
     <div className="app">
       <div className="app_body">
