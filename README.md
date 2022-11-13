@@ -1,7 +1,10 @@
-# Whatsapp_clone
-<h1><b>Whatsapp Clone</b></h1>
 
-This is real time web application clone of whatsapp.
+<h1><b>WhatsChat</b></h1>
+
+A web application to chat with people across the globe.
+It has real time chat functionality.
+Users can create and join multiple Chatrooms and talk with multiple users on their interest basis.
+
 
 <strong> Technologies used :-</strong>
 
@@ -12,3 +15,4 @@ This is real time web application clone of whatsapp.
 -Pusher
 
 
+Live at : https://whatschat-mern.vercel.app/
