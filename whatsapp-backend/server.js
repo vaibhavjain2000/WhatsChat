@@ -22,9 +22,8 @@ app.use(cors())
 
 
 //DB config
-//mongodb+srv://admin:fCMZH7AAt6H31rkZ@cluster0.5dqnr5a.mongodb.net/whatsappdb?retryWrites=true&w=majority
 
-const connection_url = 'mongodb+srv://admin:aGah4tbWCdIybbur@cluster0.5dqnr5a.mongodb.net/whatsappdb?retryWrites=true&w=majority'
+const connection_url = 'mongodb+srv://whatschat:kEa8khOtBsuEjdDq@mongo-whatschat.uw2h6qk.mongodb.net/chatdb?retryWrites=true&w=majority'
 mongoose.connect(connection_url ,{
     useNewUrlParser : true,
     useUnifiedTopology : true
