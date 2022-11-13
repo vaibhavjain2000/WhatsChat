@@ -1,5 +1,5 @@
-# Whatsapp_clone
-<h1><b>Whatsapp Clone</b></h1>
+# WhatsChat
+<h1><b>WhatsChat</b></h1>
 
 This is real time web application clone of whatsapp.
 
